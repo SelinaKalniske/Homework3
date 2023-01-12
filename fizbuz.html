@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> FIZZBUZZ GENERATOR </title>
+    <script src="fizbuz.js" defer></script>
+    <link rel="stylesheet" href="hw3.css">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+</head>
+<body>
+    <h1>FIZZBUZZ GENERATOR</h1>
+    <form>
+        <label for="start-value">Start value:</label>
+        <input type="text" name="start-value" id="start-value" value="1" min="1">
+        <br>
+        <label for="end-value">End value:</label>
+        <input type="text" name="end-value" id="end-value" value="100" min="2">
+        <br>
+        <button class="glow-on-hover" type="submit" id="submit-button">CREATE DIVS</button>
+      </form>
+      
+      
+    <div class="navContainer">
+        <button class="glow-on-hover"  id="resetButton">RESET</button>
+        <button class="glow-on-hover"  onclick="window.location.reload();" id="refreshButton">REFRESH</button>
+        <button class="glow-on-hover"  id="fizzButton">FIZZ</button>
+        <button class="glow-on-hover"  id="buzzButton">BUZZ</button>
+        <button class="glow-on-hover"  id="fizzbuzzButton">FIZZBUZZ</button>
+      </div>
+    <main id="main"></main>
+    <br>
+    <footer>Selina Kalniske (C) 2023</footer>
+</body>
+</html>
